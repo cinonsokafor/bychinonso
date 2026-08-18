@@ -42,7 +42,7 @@ export default function Home() {
             href="/"
             className="text-sm font-medium tracking-[-0.02em]"
           >
-            BYCHINONSO
+            Bychinonoso
           </Link>
 
           <nav className="hidden items-center gap-8 text-[10px] uppercase tracking-[0.18em] md:flex">
@@ -105,7 +105,7 @@ export default function Home() {
 
             <div className="col-span-3 hidden text-right md:block">
               <p className="text-[10px] uppercase tracking-[0.2em] text-black/45 dark:text-white/45">
-                Nigeria
+               Based in Nigeria
               </p>
             </div>
 
@@ -131,8 +131,7 @@ export default function Home() {
 
 
           {/* Bottom metadata */}
-          <div className="grid grid-cols-12 border-t border-black/15 pt-5 dark:border-white/15">
-
+          <div className="grid grid-cols-12">
             <div className="col-span-4 text-[10px] uppercase tracking-[0.18em] text-black/45 dark:text-white/45 md:col-span-3">
               Scroll to explore
             </div>
@@ -448,61 +447,10 @@ export default function Home() {
           LOCATION
       ===================================================== */}
 
-      <section className="border-b border-black/15 dark:border-white/15">
+      {/* <section className="border-b border-black/15 dark:border-white/15">
 
-        <div className="mx-auto max-w-[1800px] px-5 py-24 md:py-32">
-
-          <div className="grid grid-cols-12">
-
-            <div className="col-span-12 md:col-span-3">
-              <p className="text-[10px] uppercase tracking-[0.2em] text-black/45 dark:text-white/45">
-                07 / Where I am
-              </p>
-            </div>
-
-            <div className="col-span-12 mt-12 md:col-span-8 md:col-start-5 md:mt-0">
-
-              <div className="grid grid-cols-2 gap-y-8 border-t border-black/15 pt-6 dark:border-white/15 md:grid-cols-3">
-
-                <div>
-                  <p className="text-sm">
-                    Abuja, Nigeria
-                  </p>
-
-                  <p className="mt-1 text-[10px] uppercase tracking-[0.15em] text-black/40 dark:text-white/40">
-                    Current base
-                  </p>
-                </div>
-
-                <div>
-                  <p className="text-sm">
-                    West Africa
-                  </p>
-
-                  <p className="mt-1 text-[10px] uppercase tracking-[0.15em] text-black/40 dark:text-white/40">
-                    Time zone
-                  </p>
-                </div>
-
-                <div>
-                  <p className="text-sm">
-                    Worldwide
-                  </p>
-
-                  <p className="mt-1 text-[10px] uppercase tracking-[0.15em] text-black/40 dark:text-white/40">
-                    Available remotely
-                  </p>
-                </div>
-
-              </div>
-
-            </div>
-
-          </div>
-
-        </div>
-      </section>
-
+    
+      </section> */}
 
       {/* =====================================================
           CONTACT
